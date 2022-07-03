@@ -1,0 +1,21 @@
+{
+    "name": "jeffersonpatron/oopelectronic",
+    "description": "Test OOP Electronic Purchase",
+    "version": "1.00",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jefferson Patron",
+            "email": "jeffersonpatron@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebApp\\": "webapp/"
+        }
+    }
+}
